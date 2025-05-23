@@ -8,7 +8,19 @@ This project uses a [DF Robot ESP32-C6](https://wiki.dfrobot.com/SKU_DFR1075_Fir
 * Solar charging enables longer running times without need for hooking up to power.
 * Battery level detection to monitor power.
 
-Furthermore, it uses a capacitive sensor. These sensors are superio to resistive sensors due to their superior accuracy, durability, and resistance to corrosion.
+The project uses a capacitive sensor. These sensors are superio to resistive sensors due to their superior accuracy, durability, and resistance to corrosion.
+
+By integrating a solar charging element, the project aims to allow long-term operation without the need to recharge the system. Though this is highly dependent on the amount of sunlight available. With this in mind, some attention is paid to optimizing the power budget according to the following assumptions:
+* Minimize active operation (sensor reading, wifi active, etc.) to reduce current draw
+* Maximize deep sleep time where the unit is operating in lower power mode
+* Adjust above parameters to balance calculated current draws to solar cell recharge capacity
+* Be mindful of device aesthetics. Don't want to have a large solar panel overwhelming the space of the plant.
+
+
+
+
+
+
 
 
  
