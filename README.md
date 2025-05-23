@@ -18,6 +18,8 @@ By integrating a solar charging element, the project aims to allow long-term ope
 * Adjust above parameters to balance calculated current draws to solar cell recharge capacity
 * Be mindful of device aesthetics. Don't want to have a large solar panel overwhelming the space of the plant.
 
+Finally, the sensor, control unit, and solar cell will have discrete 3D-printed enclosures to provide flexibility with the placemtn of the components. The sensor will be in the soil, the control unit tucked away out of sight, and the solar cell placed in a location with optimal sun exposure.
+
 
 
 
