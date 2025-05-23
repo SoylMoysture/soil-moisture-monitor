@@ -9,6 +9,7 @@ This project uses a [DF Robot ESP32-C6](https://wiki.dfrobot.com/SKU_DFR1075_Fir
 * Battery level detection to monitor power.
 
 The project uses a capacitive sensor. These sensors are superio to resistive sensors due to their superior accuracy, durability, and resistance to corrosion.
+
 ![image](https://github.com/user-attachments/assets/11637db9-9b52-4329-9a7a-9b18123aeb44)
 
 By integrating a solar charging element, the project aims to allow long-term operation without the need to recharge the system. Though this is highly dependent on the amount of sunlight available. With this in mind, some attention is paid to optimizing the power budget according to the following assumptions:
