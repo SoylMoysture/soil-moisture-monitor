@@ -7,8 +7,9 @@ This project uses a [DF Robot ESP32-C6](https://wiki.dfrobot.com/SKU_DFR1075_Fir
 * Deep sleep low-power draw (.036 mA on version 1.1)
 * Built-in solar charging support. Enables longer running times without need to physically hookup the system to external charger.
 * Battery level detection to monitor power.
+![DFR1075](https://dfimg.dfrobot.com/store/cache3/data/DFR1075/DFR1075.jpg)
 
-The project uses a capacitive sensor. These sensors are superior to resistive sensors due to their higher accuracy, durability, and resistance to corrosion.
+The project also uses a capacitive sensor. These sensors are superior to resistive sensors due to their higher accuracy, durability, and resistance to corrosion.
 
 ![image](https://github.com/user-attachments/assets/11637db9-9b52-4329-9a7a-9b18123aeb44)
 
