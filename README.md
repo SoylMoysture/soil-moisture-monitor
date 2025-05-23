@@ -1,7 +1,7 @@
 # soil-moisture-monitor
 An ESP32 based soil moisture monitoring system.
 
-This project uses a (DF Robot ESP32-C6)[https://wiki.dfrobot.com/SKU_DFR1075_FireBeetle_2_Board_ESP32_C6] board to leverage the following characteristics:
+This project uses a [DF Robot ESP32-C6](https://wiki.dfrobot.com/SKU_DFR1075_FireBeetle_2_Board_ESP32_C6) board to leverage the following characteristics:
 * Flexible connectivity:  Wi-Fi, BLE, Zigbee, and Thread. Allows future adaption into Home Automation platforms.
 * Integrated power management.
 * Deep sleep low-power draw (.036 mA on version 1.1)
