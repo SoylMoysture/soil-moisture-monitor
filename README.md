@@ -1,24 +1,24 @@
 # soil-moisture-monitor
 An ESP32 based soil moisture monitoring system.
 
-This project uses a [DF Robot ESP32-C6](https://wiki.dfrobot.com/SKU_DFR1075_FireBeetle_2_Board_ESP32_C6) board to leverage the following characteristics:
-* Flexible connectivity:  Wi-Fi, BLE, Zigbee, and Thread. Allows future adaption into Home Automation platforms.
+This project uses a [DF Robot ESP32-C6](https://wiki.dfrobot.com/SKU_DFR1075_FireBeetle_2_Board_ESP32_C6) board to leverage its following characteristics:
+* Flexible connectivity:  Wi-Fi, BLE, Zigbee, and Thread. Allows future adaptation into Home Automation platforms.
 * Integrated power management.
 * Deep sleep low-power draw (.036 mA on version 1.1)
-* Solar charging enables longer running times without need for hooking up to power.
+* Built-in solar charging support. Enables longer running times without need to physically hookup the system to external charger.
 * Battery level detection to monitor power.
 
-The project uses a capacitive sensor. These sensors are superio to resistive sensors due to their superior accuracy, durability, and resistance to corrosion.
+The project uses a capacitive sensor. These sensors are superior to resistive sensors due to their higher accuracy, durability, and resistance to corrosion.
 
 ![image](https://github.com/user-attachments/assets/11637db9-9b52-4329-9a7a-9b18123aeb44)
 
-By integrating a solar charging element, the project aims to allow long-term operation without the need to recharge the system. Though this is highly dependent on the amount of sunlight available. With this in mind, some attention is paid to optimizing the power budget according to the following assumptions:
+By incorporating a solar charging element, the project aims to allow long-term operation without the need to hook the system up to an external charger. Though this is highly dependent on the amount of sunlight available. With this in mind, some attention is paid to optimizing the power budget of the system by facotring in the following criteria:
 * Minimize active operation (sensor reading, wifi active, etc.) to reduce current draw
 * Maximize deep sleep time where the unit is operating in lower power mode
-* Adjust above parameters to balance calculated current draws to solar cell recharge capacity
+* Adjust above parameters to balance overall system current draw vs. the solar cell recharge capacity
 * Be mindful of device aesthetics. Don't want to have a large solar panel overwhelming the space of the plant.
 
-Finally, the sensor, control unit, and solar cell will have discrete 3D-printed enclosures to provide flexibility with the placemtn of the components. The sensor will be in the soil, the control unit tucked away out of sight, and the solar cell placed in a location with optimal sun exposure.
+Finally, the sensor, control unit, and solar cell will be housed in their own 3D-printed enclosures. This will let the user place the components in ways that don't overwhelm the aesthetics of the plant itself. 
 
 
 
