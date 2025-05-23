@@ -2,7 +2,7 @@
 An ESP32 based soil moisture monitoring system.
 
 This project uses a [DF Robot ESP32-C6](https://wiki.dfrobot.com/SKU_DFR1075_FireBeetle_2_Board_ESP32_C6) board to leverage its following characteristics:
-* Flexible connectivity:  Wi-Fi, BLE, Zigbee, and Thread. Allows future adaptation into Home Automation platforms. This capability is used to provide notification of low-moisture condition via email message. 
+* Flexible connectivity:  Wi-Fi, BLE, Zigbee, and Thread. Allows future adaptation into Home Automation platforms. This connectivity capability is initially used to provide notification of low-moisture condition via email message. 
 * Integrated power management.
 * Deep sleep low-power draw (.036 mA on version 1.1)
 * Built-in solar charging support. Enables longer running times without need to physically hookup the system to external charger.
