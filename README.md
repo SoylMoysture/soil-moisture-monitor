@@ -13,6 +13,11 @@ The project also uses a capacitive sensor. These sensors are superior to resisti
 
 ![image](https://github.com/user-attachments/assets/11637db9-9b52-4329-9a7a-9b18123aeb44)
 
+The sensore will be enclosed in a 3D printed enclosure. Silicone or similar caulking compound will be used to seal the electronics against moisuter exposure.
+
+![Moisture_Sensor_Enclosure](https://github.com/user-attachments/assets/284566f6-ae20-4117-8df7-e9bd3f5fa455)
+
+
 By incorporating a solar charging element, the project aims to allow long-term operation without the need to hook the system up to an external charger. Though this is highly dependent on the amount of sunlight available. With this in mind, some attention is paid to optimizing the power budget of the system by facotring in the following criteria:
 * Minimize active operation (sensor reading, wifi active, etc.) to reduce current draw
 * Maximize deep sleep time where the unit is operating in lower power mode
