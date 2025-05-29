@@ -7,7 +7,8 @@ This project uses a [DF Robot ESP32-C6](https://wiki.dfrobot.com/SKU_DFR1075_Fir
 * Deep sleep low-power draw (.036 mA on version 1.1)
 * Built-in solar charging support. Enables longer running times without need to physically hookup the system to external charger.
 * Battery level detection to monitor power.
-![DFR1075](https://dfimg.dfrobot.com/store/cache3/data/DFR1075/DFR1075.jpg)
+
+<img src="https://dfimg.dfrobot.com/store/cache3/data/DFR1075/DFR1075.jpg" width=50% alt="DFR1075 ESP32-C6">
 
 The project also uses a capacitive sensor. These sensors are superior to resistive sensors due to their higher accuracy, durability, and resistance to corrosion.
 
@@ -15,8 +16,7 @@ The project also uses a capacitive sensor. These sensors are superior to resisti
 
 The sensore will be enclosed in a 3D printed enclosure. Silicone or similar caulking compound will be used to seal the electronics against moisuter exposure.
 
-![Moisture_Sensor_Enclosure](https://github.com/user-attachments/assets/284566f6-ae20-4117-8df7-e9bd3f5fa455)
-
+<img src="https://github.com/user-attachments/assets/284566f6-ae20-4117-8df7-e9bd3f5fa455" width=50% alt="Case">
 
 By incorporating a solar charging element, the project aims to allow long-term operation without the need to hook the system up to an external charger. Though this is highly dependent on the amount of sunlight available. With this in mind, some attention is paid to optimizing the power budget of the system by facotring in the following criteria:
 * Minimize active operation (sensor reading, wifi active, etc.) to reduce current draw
