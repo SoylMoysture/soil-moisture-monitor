@@ -27,6 +27,16 @@ By incorporating a solar charging element, the project aims to allow long-term o
 Finally, the sensor, control unit, and solar cell will be housed in their own 3D-printed enclosures. This will let the user place the components in ways that don't overwhelm the aesthetics of the plant itself. 
 
 
+# Sensor Reading
+The sensor will use a median filter to take a 5 second reading. By averaging the values we can smooth out any outlier readings to increase accuracy of reading.
+
+In this plot, we can see the output when you hold and release the sensor body. This simulates the wet and dry soil conditions. We will calibrate our dry value to be at about 40% soil moisture.
+
+<img src="https://github.com/user-attachments/assets/fcc3e139-ef84-4c92-8d17-88ec60e40347" width=50%>
+
+
+
+
 
 
 
