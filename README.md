@@ -7,6 +7,7 @@ Key Characteristics
 - Low power use and solar recharging
 - Automatic moisture level notification
 - Can be used indoor and outdoor
+- Historical moisture data available for analysis
 
 ### Controller
 
