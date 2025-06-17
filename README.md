@@ -9,7 +9,7 @@ Key Characteristics
 - Can be used indoor and outdoor
 - Historical moisture data available for analysis
 
-### Controller-2
+### Controller
 
 This project uses a [DF Robot ESP32-C6](https://wiki.dfrobot.com/SKU_DFR1075_FireBeetle_2_Board_ESP32_C6) board to leverage these features:
 
